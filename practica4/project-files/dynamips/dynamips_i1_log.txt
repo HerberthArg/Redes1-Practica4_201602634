@@ -1,0 +1,21 @@
+Oct 11 00:56:49.323 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 11 00:56:49.323 HYPERVISOR: Started on IP = localhost, TCP port = 54525.
+Oct 11 00:56:49.547 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 11 00:56:49.548 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\herbe\GNS3\projects\practica4\project-files\dynamips 
+Oct 11 00:56:49.555 GENERAL: working_dir=C:\Users\herbe\GNS3\projects\practica4\project-files\dynamips
+Oct 11 00:56:49.555 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\herbe\GNS3\projects\practica4\project-files\dynamips\efa50403-8e73-4123-9a2d-d3c83852ff42 
+Oct 11 00:56:49.556 GENERAL: working_dir=C:\Users\herbe\GNS3\projects\practica4\project-files\dynamips\efa50403-8e73-4123-9a2d-d3c83852ff42
+Oct 11 00:56:49.556 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Oct 11 00:56:49.557 VM: VM R1 created.
+Oct 11 00:56:49.557 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Oct 11 00:56:49.557 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Oct 11 00:56:49.558 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Oct 11 00:56:49.558 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Oct 11 00:56:49.558 HYPERVISOR: exec_cmd: vm get_status R1 
+Oct 11 00:56:49.558 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x602467a4 
+Oct 11 00:56:49.559 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/herbe/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 11 00:56:49.559 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.2e70.0000 
+Oct 11 00:56:49.559 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Oct 11 00:56:52.641 HYPERVISOR: exec_cmd: nio create_udp udp-72409ab8-84c2-44d5-9c61-ea0bbc8c82d1 10046 127.0.0.1 10047 
+Oct 11 00:56:52.873 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-72409ab8-84c2-44d5-9c61-ea0bbc8c82d1 
+Oct 11 00:56:52.873 HYPERVISOR: exec_cmd: vm get_status R1 
