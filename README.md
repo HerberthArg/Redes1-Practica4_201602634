@@ -1,4 +1,4 @@
-# Practica 2 - 201602634
+# Practica 4 - 201602634
 ## Definición de las redes
 ![Paso 3](/Capturas/1.PNG)
 ![Paso 3](/Capturas/2.PNG)
